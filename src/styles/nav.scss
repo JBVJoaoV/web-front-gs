@@ -1,0 +1,16 @@
+nav{
+    display: flex;
+    border: solid green 1px;
+    color: green;
+    justify-content: space-around; 
+    align-items: center;
+
+    a {
+        text-decoration: none; /* Remove a decoração de link padrão */
+        color: inherit; /* Herda a cor do pai, que é verde no seu caso */
+
+        &:hover {
+            text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+        }
+    }
+}
