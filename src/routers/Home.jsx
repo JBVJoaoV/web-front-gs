@@ -13,7 +13,7 @@ function Home() {
 
   const handleLogout = () => {
     sessionStorage.removeItem('usuarioLogado');
-    navigate('/login'); 
+    navigate('/'); 
   }
 
   return (

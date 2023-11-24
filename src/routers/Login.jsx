@@ -27,7 +27,7 @@ function Login() {
 
         if (user) {
           sessionStorage.setItem('usuarioLogado', JSON.stringify(user));
-          navigate('/');
+          navigate('/home');
         } else {
           alert("Usuário/senha inválidos");
           setUsuario({
